@@ -1,5 +1,12 @@
 # example opencv threshold filter tiles
 
+This repo takes in a folder of png images and splits them up into grids per image and identifies light areas in the grid and creates output images with the grid overlaid as well as a csv of the stats.
+## quickstart
+
+1. install opencv-python via `pip3 install opencv-python`
+2. run process.py
+3. check the output.csv and the output_folder
+4. Adjust threshholds as needed for use case
 ## defaults
 
 ### Threshhold
