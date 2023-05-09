@@ -4,7 +4,7 @@ This repo takes in a folder of png images and splits them up into grids per imag
 ## quickstart
 
 1. install opencv-python via `pip3 install opencv-python`
-2. run process.py
+2. run process.py or process-nongreen.py for use case
 3. check the output.csv and the output_folder
 4. Adjust threshholds as needed for use case
 ## defaults
