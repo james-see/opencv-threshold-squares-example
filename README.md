@@ -39,3 +39,10 @@ i need it to not do the threshhold based on the image average but by a static li
 
 _and that is all!_
 
+### Example output at 50px squares
+
+<img width="520" alt="Screenshot 2023-05-08 at 7 58 03 PM" src="https://user-images.githubusercontent.com/616585/236961581-aa4e2ab2-cb3e-4a0a-9413-a0872696ae75.png">
+<img width="554" alt="Screenshot 2023-05-08 at 7 57 54 PM" src="https://user-images.githubusercontent.com/616585/236961589-5323ec23-6587-46f0-aa92-768138be6ba8.png">
+
+
+
