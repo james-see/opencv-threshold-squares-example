@@ -25,7 +25,7 @@ The script assumes all images are png. There is a script in the pre-process fold
 The images are output to output_folder and a csv of the image name, the white square count, and the total squares is output to output.csv
 ### ChatGPT
 
-prompts in order:
+prompts in order (each one I executed, copied the code and then tweaked it some more):
 
 i need opencv python code to split up a png image into 50px grid and identify the light and dark squares and fill in the squares in white that are lighter than most. the image is 750x750px
 
@@ -36,6 +36,10 @@ i need to save the image out instead of opening it and store the image name, tot
 i need to iterate through an input folder of png images and do the same thing for each with the images numbered output1.png output2.png etc.
 
 i need it to not do the threshhold based on the image average but by a static lightness value
+
+instead of the lightness threshhold, I need a not-greeness threshhold, areas that are not shades of green
+
+I needs to figure out the average green per photo instead of using a static threshhold
 
 _and that is all!_
 
